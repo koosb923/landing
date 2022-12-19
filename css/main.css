@@ -305,7 +305,7 @@ h4 {
   }
   .main img {
     margin-top: 1.8rem;
-    width: 30rem;
+    width: 80vw;
   }
   .container_1 {
     display: flex;
@@ -317,7 +317,7 @@ h4 {
     padding: 6rem 0 6rem 0;
   }
   .container_1 img {
-    width: 30rem;
+    width: 70vw;
   }
   .container_2 {
     display: flex;
@@ -345,6 +345,7 @@ h4 {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    width: 100vw;
   }
   .container_3 div img {
     width: 40vw;
@@ -374,7 +375,7 @@ h4 {
     background: linear-gradient(98.88deg, #2279F5 -1.44%, #F23343 105.91%), #2D2C2C;
   }
   .container_5 p {
-    font-size: 3.2rem;
+    font-size: 80vw;
     font-weight: 600;
   }
 }/*# sourceMappingURL=main.css.map */
