@@ -1,0 +1,380 @@
+@charset "UTF-8";
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+/*색상 변수*/
+.primary-10 {
+  color: #F5E2E4;
+}
+.primary-50 {
+  color: #F23343;
+}
+
+.secondary-10 {
+  color: #E3EFFF;
+}
+.secondary-50 {
+  color: #026BFF;
+}
+
+.base-white {
+  color: #ffffff;
+}
+.base-black {
+  color: #000000;
+}
+
+.gray-50 {
+  color: #e1e1e1;
+}
+.gray-90 {
+  color: #939393;
+}
+
+.up-color {
+  color: #F23343;
+}
+
+.down-color {
+  color: #2175EB;
+}
+
+.like-color {
+  color: #FBC63E;
+}
+
+.notice-color {
+  color: #24D655;
+}
+
+.bg-gr {
+  background: linear-gradient(102.26deg, #FFF3F4 24.81%, #F2F7FE 73.7%);
+}
+
+.margintop {
+  margin-top: 2rem;
+}
+.marginbottom {
+  margin-bottom: 2rem;
+}
+
+.padding-left-right-1 {
+  padding: 0rem 1rem 0 1rem;
+}
+
+.padding-left-right-1-5 {
+  padding: 0rem 2rem 0 1.5rem;
+}
+
+.z-index-1 {
+  z-index: 1;
+}
+.z-index-2 {
+  z-index: 2;
+}
+.z-index-3 {
+  z-index: 3;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: "Spoqa Han Sans Neo", "dotum", "돋움", "Apple SD Gothic Neo", "Noto Sans KR", Sans-serif;
+  vertical-align: baseline;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  display: flex;
+  line-height: 1;
+  flex-direction: column;
+  align-items: center;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+button {
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
+  overflow: visible;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.align-left {
+  text-align: left;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 5.4rem;
+}
+
+h2 {
+  font-size: 2.3rem;
+  font-weight: 300;
+  line-height: 3.4rem;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 3rem;
+}
+
+h4 {
+  font-size: 1.7rem;
+  font-weight: 600;
+  line-height: 3rem;
+}
+
+.body-m {
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.7rem;
+}
+
+/* 버튼 */
+.gnb-font {
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+@media all and (min-width: 320px) and (max-width: 1024px) {
+  h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 3.2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 2rem;
+  }
+  h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 2rem;
+  }
+}
+.primary-btn {
+  width: 242px;
+  padding: 1rem 3rem 1rem 3rem;
+  background: #F23343;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 0.6rem;
+  align-self: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 600px;
+  text-align: center;
+  gap: 80px;
+}
+.main img {
+  margin-top: 1.8rem;
+  width: 30rem;
+}
+
+.container_1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  gap: 3rem;
+  padding: 10rem 0 10rem 0;
+}
+.container_1 img {
+  width: 24rem;
+}
+
+.container_2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  gap: 1rem;
+  padding: 10rem 0 10rem 0;
+}
+.container_2 img {
+  width: 60rem;
+}
+
+.container_3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  gap: 3rem;
+  padding: 5rem 0 5rem 0;
+}
+.container_3 div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.container_3 div img {
+  width: 24rem;
+}
+
+.container_4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  gap: 2rem;
+  padding: 5rem 0 5rem 0;
+}
+.container_4 img {
+  width: 48rem;
+}
+
+.container_5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  border-radius: 24px;
+  padding: 5rem 0 5rem 0;
+  margin: 0 0 5rem 0;
+  gap: 3rem;
+  background: linear-gradient(98.88deg, #2279F5 -1.44%, #F23343 105.91%), #2D2C2C;
+}
+.container_5 p {
+  font-size: 6rem;
+  font-weight: 600;
+}
+
+@media all and (min-width: 320px) and (max-width: 1024px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 600px;
+    text-align: center;
+    gap: 80px;
+  }
+  .main img {
+    margin-top: 1.8rem;
+    width: 30rem;
+  }
+  .container_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    gap: 3rem;
+    padding: 6rem 0 6rem 0;
+  }
+  .container_1 img {
+    width: 30rem;
+  }
+  .container_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    gap: 1rem;
+    padding: 10rem 0 10rem 0;
+  }
+  .container_2 img {
+    width: 70vw;
+  }
+  .container_3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    gap: 3rem;
+    padding: 5rem 0 5rem 0;
+  }
+  .container_3 div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .container_3 div img {
+    width: 40vw;
+  }
+  .container_4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    gap: 2rem;
+    padding: 5rem 0 5rem 0;
+  }
+  .container_4 img {
+    width: 80vw;
+  }
+  .container_5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 96vw;
+    border-radius: 24px;
+    padding: 3rem 0 3rem 0;
+    margin: 0 0 5rem 0;
+    gap: 2rem;
+    background: linear-gradient(98.88deg, #2279F5 -1.44%, #F23343 105.91%), #2D2C2C;
+  }
+  .container_5 p {
+    font-size: 3.2rem;
+    font-weight: 600;
+  }
+}/*# sourceMappingURL=main.css.map */

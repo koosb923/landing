@@ -1,0 +1,61 @@
+/*색상 변수*/
+$primary-10: #F5E2E4;
+$primary-50: #F23343;
+
+$secondary-10: #E3EFFF;
+$secondary-50: #026BFF;
+
+
+$base-white: #ffffff;
+$base-black: #000000;
+
+
+$up-red: #F23343;
+$down-blue: #2175EB;
+$like-yellow: #FBC63E;
+$notice-green: #24D655;
+
+$gray-50: #e1e1e1;
+$gray-90: #939393;
+
+
+
+
+
+.primary {
+    &-10 {color: $primary-10;}
+    &-50 {color: $primary-50;}
+}
+
+.secondary {
+    &-10 {color: $secondary-10;}
+    &-50 {color: $secondary-50;}
+}
+
+
+.base {
+    &-white{color: $base-white;}
+    &-black{color: $base-black;}
+}
+
+.gray{
+    &-50{color: $gray-50;}
+    &-90{color: $gray-90;}
+}
+
+.up-color{
+    color: $up-red;
+}
+.down-color{
+    color: $down-blue;
+}
+.like-color{
+    color: $like-yellow;
+}
+.notice-color{
+    color: $notice-green;
+}
+
+.bg-gr{
+    background: linear-gradient(102.26deg, #FFF3F4 24.81%, #F2F7FE 73.7%);;
+}
