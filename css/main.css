@@ -339,6 +339,7 @@ h4 {
     width: 100vw;
     gap: 3rem;
     padding: 5rem 0 5rem 0;
+    text-align: center;
   }
   .container_3 div {
     display: flex;
@@ -348,7 +349,7 @@ h4 {
     width: 100vw;
   }
   .container_3 div img {
-    width: 40vw;
+    width: 45vw;
   }
   .container_4 {
     display: flex;
@@ -375,7 +376,7 @@ h4 {
     background: linear-gradient(98.88deg, #2279F5 -1.44%, #F23343 105.91%), #2D2C2C;
   }
   .container_5 p {
-    font-size: 80vw;
+    font-size: 80%;
     font-weight: 600;
   }
 }/*# sourceMappingURL=main.css.map */

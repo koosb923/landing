@@ -150,6 +150,7 @@
         width: 100vw;
         gap: 3rem;
         padding: 5rem 0 5rem 0;
+        text-align: center;
 
         div {
             display: flex;
@@ -158,7 +159,7 @@
             flex-wrap: wrap;
             width: 100vw;
             img {
-                width: 40vw;
+                width: 45vw;
             }
         }
     }
@@ -189,7 +190,7 @@
         background: linear-gradient(98.88deg, #2279F5 -1.44%, #F23343 105.91%), #2D2C2C;
         p{
             font: {
-                size: 80vw;
+                size: 80%;
                 weight: 600;
             }
         }
